@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto Condensed';
-    /* background-color: #F9DAD0; */
-    /*  #FAB3A9;#C6AD94; #7FB285;*/
+    background: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+    /* background: #dfc2f2; */
+    /*  #FAB3A9;#C6AD94; #7FB285;  #F9DAD0;*/
+    padding: 20px 60px;
 }
