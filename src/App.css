@@ -1,7 +1,17 @@
+:root {
+    --prim: #b7e4c7;
+    --sec: #52b788;
+    --ter: #1b4332;
+}
+
 body{
     font-family: 'Roboto Condensed';
-    background: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
-    /* background: #dfc2f2; */
-    /*  #FAB3A9;#C6AD94; #7FB285;  #F9DAD0;*/
+    background: var(--prim);
     padding: 20px 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
