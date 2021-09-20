@@ -1,0 +1,20 @@
+.custom-button {
+    
+    min-width: 120px;
+    width: auto;
+    height: 45px;
+    font-size: 0.9rem;
+    padding: 0 25px;
+    background-color: var(--ter);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    margin: 15px 10px;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
