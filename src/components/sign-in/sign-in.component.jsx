@@ -57,7 +57,7 @@ class SignIn extends React.Component{
                         Sign in with google{''}
                     </CustomButton> */}
                     <FbLogin
-						appId="264998295473839"
+						appId="410495577459528"
 						fields="name,email,picture"
 						callback={responseFacebook}
 					/>
