@@ -40,6 +40,7 @@ class SignIn extends React.Component{
     render() {
 
         const responseFacebook =  async(response) => {
+            console.log(response);
             facebookLogin(response.accesstoken);
         };
 
