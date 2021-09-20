@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/crown-clothing-react/static/css/main.8e4bed88.chunk.css",
-    "main.js": "/crown-clothing-react/static/js/main.c944eab1.chunk.js",
-    "main.js.map": "/crown-clothing-react/static/js/main.c944eab1.chunk.js.map",
+    "main.js": "/crown-clothing-react/static/js/main.f9010765.chunk.js",
+    "main.js.map": "/crown-clothing-react/static/js/main.f9010765.chunk.js.map",
     "runtime-main.js": "/crown-clothing-react/static/js/runtime-main.f9d5dc18.js",
     "runtime-main.js.map": "/crown-clothing-react/static/js/runtime-main.f9d5dc18.js.map",
     "static/js/2.6ac25f9f.chunk.js": "/crown-clothing-react/static/js/2.6ac25f9f.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f9d5dc18.js",
     "static/js/2.6ac25f9f.chunk.js",
     "static/css/main.8e4bed88.chunk.css",
-    "static/js/main.c944eab1.chunk.js"
+    "static/js/main.f9010765.chunk.js"
   ]
 }
