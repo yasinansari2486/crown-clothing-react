@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/yasinansari2486/crown-clothing-react.git/static/css/main.8e4bed88.chunk.css",
+    "main.js": "/yasinansari2486/crown-clothing-react.git/static/js/main.208ae172.chunk.js",
+    "main.js.map": "/yasinansari2486/crown-clothing-react.git/static/js/main.208ae172.chunk.js.map",
+    "runtime-main.js": "/yasinansari2486/crown-clothing-react.git/static/js/runtime-main.3fd5d117.js",
+    "runtime-main.js.map": "/yasinansari2486/crown-clothing-react.git/static/js/runtime-main.3fd5d117.js.map",
+    "static/js/2.e0561b59.chunk.js": "/yasinansari2486/crown-clothing-react.git/static/js/2.e0561b59.chunk.js",
+    "static/js/2.e0561b59.chunk.js.map": "/yasinansari2486/crown-clothing-react.git/static/js/2.e0561b59.chunk.js.map",
+    "index.html": "/yasinansari2486/crown-clothing-react.git/index.html",
+    "static/css/main.8e4bed88.chunk.css.map": "/yasinansari2486/crown-clothing-react.git/static/css/main.8e4bed88.chunk.css.map",
+    "static/js/2.e0561b59.chunk.js.LICENSE.txt": "/yasinansari2486/crown-clothing-react.git/static/js/2.e0561b59.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/yasinansari2486/crown-clothing-react.git/static/media/crown.3a4e2b15.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fd5d117.js",
+    "static/js/2.e0561b59.chunk.js",
+    "static/css/main.8e4bed88.chunk.css",
+    "static/js/main.208ae172.chunk.js"
+  ]
+}
