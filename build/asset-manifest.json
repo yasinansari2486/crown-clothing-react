@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/crown-clothing-react.git/static/css/main.8e4bed88.chunk.css",
-    "main.js": "/crown-clothing-react.git/static/js/main.c944eab1.chunk.js",
-    "main.js.map": "/crown-clothing-react.git/static/js/main.c944eab1.chunk.js.map",
-    "runtime-main.js": "/crown-clothing-react.git/static/js/runtime-main.f5235f93.js",
-    "runtime-main.js.map": "/crown-clothing-react.git/static/js/runtime-main.f5235f93.js.map",
-    "static/js/2.c5ae63d2.chunk.js": "/crown-clothing-react.git/static/js/2.c5ae63d2.chunk.js",
-    "static/js/2.c5ae63d2.chunk.js.map": "/crown-clothing-react.git/static/js/2.c5ae63d2.chunk.js.map",
-    "index.html": "/crown-clothing-react.git/index.html",
-    "static/css/main.8e4bed88.chunk.css.map": "/crown-clothing-react.git/static/css/main.8e4bed88.chunk.css.map",
-    "static/js/2.c5ae63d2.chunk.js.LICENSE.txt": "/crown-clothing-react.git/static/js/2.c5ae63d2.chunk.js.LICENSE.txt",
-    "static/media/crown.3a4e2b15.svg": "/crown-clothing-react.git/static/media/crown.3a4e2b15.svg"
+    "main.css": "/crown-clothing-react/static/css/main.8e4bed88.chunk.css",
+    "main.js": "/crown-clothing-react/static/js/main.c944eab1.chunk.js",
+    "main.js.map": "/crown-clothing-react/static/js/main.c944eab1.chunk.js.map",
+    "runtime-main.js": "/crown-clothing-react/static/js/runtime-main.f9d5dc18.js",
+    "runtime-main.js.map": "/crown-clothing-react/static/js/runtime-main.f9d5dc18.js.map",
+    "static/js/2.6ac25f9f.chunk.js": "/crown-clothing-react/static/js/2.6ac25f9f.chunk.js",
+    "static/js/2.6ac25f9f.chunk.js.map": "/crown-clothing-react/static/js/2.6ac25f9f.chunk.js.map",
+    "index.html": "/crown-clothing-react/index.html",
+    "static/css/main.8e4bed88.chunk.css.map": "/crown-clothing-react/static/css/main.8e4bed88.chunk.css.map",
+    "static/js/2.6ac25f9f.chunk.js.LICENSE.txt": "/crown-clothing-react/static/js/2.6ac25f9f.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/crown-clothing-react/static/media/crown.3a4e2b15.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5235f93.js",
-    "static/js/2.c5ae63d2.chunk.js",
+    "static/js/runtime-main.f9d5dc18.js",
+    "static/js/2.6ac25f9f.chunk.js",
     "static/css/main.8e4bed88.chunk.css",
     "static/js/main.c944eab1.chunk.js"
   ]
