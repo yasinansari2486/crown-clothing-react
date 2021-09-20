@@ -11,7 +11,7 @@ import ShopPage from './pages/shop/shop.component';
 
 function App() {
   return (
-    <HashRouter basename='crown-clothing-react'>
+    <HashRouter>
       <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
