@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch,Route } from 'react-router-dom';
+import { Switch,Route, BrowserRouter,HashRouter } from 'react-router-dom';
 
 import './App.css';
 
@@ -11,14 +11,14 @@ import ShopPage from './pages/shop/shop.component';
 
 function App() {
   return (
-    <div>
+    <HashRouter basename='crown-clothing-react'>
       <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route exact path='/shop' component={ShopPage} />
         <Route exact path='/signin' component={SignInAndSignUpPage} />
       </Switch>
-    </div>
+    </HashRouter>
   );
 }
 
