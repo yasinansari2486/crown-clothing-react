@@ -4,6 +4,11 @@
     --ter: #1b4332;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
 body{
     font-family: 'Roboto Condensed';
     background: var(--prim);
@@ -12,6 +17,5 @@ body{
 
 a {
     text-decoration: none;
-    color: black;
-    font-weight: 600;
 }
+
