@@ -10,15 +10,15 @@
     top: 80px;
     right: 5px;
     z-index: 5;
-
+    
     .cart-items {
-        height: 240px;
+        height: 260px;
         display: flex;
         flex-direction: column;
-        overflow: scroll;
+        overflow-y: scroll;
     }
 
     Button {
-        margin: auto ;
+        margin: 30px auto 0 auto;
     }
 }
