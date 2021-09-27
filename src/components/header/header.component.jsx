@@ -27,7 +27,7 @@ const Header = ({currentUser, hidden}) => (
             </Link>
             {
                 currentUser ?
-                <div className="option" onClick={() => auth.signOut()}><i class="fas fa-sign-out-alt" style={{color: "var(--ter)" , fontSize: "22px"}}></i></div>
+                <div className="option" onClick={() => auth.signOut()}><i className="fas fa-sign-out-alt" style={{color: "var(--ter)" , fontSize: "22px"}}></i></div>
                 :
                 <Link className="option" to="/signin">SIGN IN</Link>
             }
