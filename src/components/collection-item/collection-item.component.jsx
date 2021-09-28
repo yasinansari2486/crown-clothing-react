@@ -4,34 +4,31 @@ import { addItem } from '../../redux/cart/cart.actions';
 import { withRouter } from 'react-router-dom';
 
 
-import './collection-item.styles.scss';
+import { CollectionItemContainer, CollectionButton, BackgroundImage, CollectionFooterContainer, CollectionInfoContainer } from './collection-item.styles';
 
 const CollectionItem = ({item, addItem,history }) => {
     const { name, price, imageUrl} = item;
     return (
-        <div className="collection-item">
-        <div className="image"
-        style={{
-            backgroundImage: `url(${imageUrl})`
-        }} />
-        <div className="collection-footer">
-            <div className="collection-info">
-                <span className="name">{name}</span>
-                <span className="price">&#36; {price}</span>
-            </div>
-            <div className="collection-btn">
-                <i className="fas fa-shopping-cart fa-1x" onClick={()=> addItem(item)}></i>
-                <button 
-                onClick={()=>{ addItem(item); 
-                history.push('/checkout');}}
-                >
-                    Buy Now
-                </button>
-            </div>
-           
-        </div>
+        <CollectionItemContainer>
+            <BackgroundImage  className='image' imageUrl={imageUrl}/>
+            <CollectionFooterContainer>
+                <CollectionInfoContainer>
+                    <span className="name">{name}</span>
+                    <span className="price">&#36; {price}</span>
+                </CollectionInfoContainer>
+                <CollectionButton>
+                    <i className="fas fa-shopping-cart fa-1x" onClick={()=> addItem(item)}></i>
+                    <button 
+                    onClick={()=>{ addItem(item); 
+                    history.push('/checkout');}}
+                    >
+                        Buy Now
+                    </button>
+                </CollectionButton>
+            
+            </CollectionFooterContainer>
         
-    </div>
+        </CollectionItemContainer>
     )
     
 }
