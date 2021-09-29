@@ -9,6 +9,11 @@ export const CollectionItemContainer = styled.div`
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.336);
     border-radius: 15px;
     background: var(--sec);
+
+    @media screen and (max-width: 800px) {
+        width: 40vw;
+        height: 280px;
+    }
 `;
 
 export const CollectionButton = styled.div`
@@ -33,6 +38,16 @@ export const CollectionButton = styled.div`
         font-weight: 600;
         border: none;
     }
+
+    @media screen and (max-width: 800px) {
+        button {
+            padding: 0.2rem 0.6rem;
+        }
+
+        i {
+            font-size: 20px;
+        }
+    }
 `;
 
 export const BackgroundImage = styled.div`
@@ -55,6 +70,11 @@ export const CollectionFooterContainer = styled.div`
     justify-content: space-evenly;
     font-size: 1.2rem;
     font-weight: 700;
+
+    @media screen and (max-width: 800px) {
+        font-size: 1rem;
+        font-weight: 600;
+    }
 `;
 
 export const CollectionInfoContainer = styled.div`

@@ -35,4 +35,11 @@ export const CustomButtonContainer = styled.button`
 
     ${getButtonStyles}
 
+    @media screen and (max-width: 950px) {
+        min-width: 100px;
+        height: 40px;
+        font-size: 0.7rem;
+        padding: 0 10px;
+
+    }
 `

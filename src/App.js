@@ -3,7 +3,8 @@ import { Switch, Route, HashRouter, Redirect} from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
-import './App.css';
+// import './App.css';
+import {GlobalStyle} from './global.styles';
 
 import Header from './components/header/header.component';
 import ShopPage from './pages/shop/shop.component';
@@ -47,6 +48,7 @@ class App extends React.Component{
   render(){
     return (
       <HashRouter>
+        <GlobalStyle/>
         <Header/>
         <Switch>
           <Route exact path='/' component={HomePage} />
