@@ -40,6 +40,14 @@ export const CustomButtonContainer = styled.button`
         height: 40px;
         font-size: 0.7rem;
         padding: 0 10px;
+        margin-right: 4px;
 
+    }
+
+    @media screen and (max-width: 400px) {
+        min-width: 95px;
+        height: 35px;
+        padding: 0 5px;
+        font-size: 0.6rem;
     }
 `
