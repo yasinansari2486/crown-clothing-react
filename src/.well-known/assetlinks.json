@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "com.CrownClothing_YasinAnsari.twa",
+                     "sha256_cert_fingerprints": ["FC:4A:A5:34:8A:F3:7C:6C:A1:3B:8A:74:E1:26:A5:9F:99:FD:C9:7E:31:8C:04:6E:60:30:04:21:72:C3:CB:E9"] }
+      }
+]
