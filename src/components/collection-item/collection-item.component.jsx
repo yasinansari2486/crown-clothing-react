@@ -3,14 +3,14 @@ import {connect} from 'react-redux';
 import { addItem } from '../../redux/cart/cart.actions';
 import { withRouter } from 'react-router-dom';
 
-
 import { CollectionItemContainer, CollectionButton, BackgroundImage, CollectionFooterContainer, CollectionInfoContainer } from './collection-item.styles';
 
 const CollectionItem = ({item, addItem,history }) => {
     const { name, price, imageUrl} = item;
     return (
         <CollectionItemContainer>
-            <BackgroundImage  className='image' imageUrl={imageUrl}/>
+            <BackgroundImage  className='image' imageUrl={imageUrl}  onClick={()=>{  
+            history.push(`/description/${item.id}`);}}/>
             <CollectionFooterContainer>
                 <CollectionInfoContainer>
                     <span className="name">{name}</span>

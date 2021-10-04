@@ -10,7 +10,8 @@ import Header from './components/header/header.component';
 import ShopPage from './pages/shop/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import CheckoutPage from './pages/checkout/checkout.component';
-import HomePage from "./pages/homepage/homepage.component"
+import HomePage from "./pages/homepage/homepage.component";
+import DescriptionPage from './pages/collection-description/description-page.component';
 
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import {setCurrentUser} from './redux/user/user.actions'
@@ -54,6 +55,7 @@ class App extends React.Component{
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
+          <Route exact path='/description/:id' component={DescriptionPage} />
           <Route exact path='/signin' 
             render={() =>
               this.props.currentUser ? (<Redirect to='/'></Redirect>) : (<SignInAndSignUpPage/>) 
