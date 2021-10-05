@@ -1,21 +1,42 @@
 import styled from "styled-components";
 
 export const CollectionDescriptionContainer = styled.div`
-    width: 60vw;
+    width: 50vw;
     display: flex;
     height: 50vh;
-    // align-items: centre;
     justify-content: space-between;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.336);
     border-radius: 15px;
-    margin: 3.4em auto;
+    margin: 3.5em auto;
     color: var(--ter);
 
-    @media screen and (max-width: 800px) {
-        flex-direction : column;
-        height: 80vh;
+    @media screen and (max-width: 950px) {
+        width: 80vw;
+        margin: 2em auto;
+    }
+
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
         width: 50vw;
-        margin: 1.5em auto;
+        height: 70vh;
+        margin: auto;
+    }
+`;
+
+export const BackgroundImage = styled.div`
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+
+    @media screen and (max-width: 650px) {
+        height: 50%;
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
     }
 `;
 
@@ -23,60 +44,63 @@ export const CollectionItemContainer = styled.div`
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 65%
+    width: 50%;
+    padding: 15px;
+    justify-content: space-around;
 
-    @media screen and (max-width: 800px) {
-        height:50%;
-    }
-`
-
-export const BackgroundImage = styled.div`
-    width: 40%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    // background-repeat: ;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    background-image: ${({ imageUrl }) => `url(${imageUrl})`};
-
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 650px) {
         height: 50%;
         width: 100%;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 0;
-
+        padding: 10px;
     }
+
 `;
+
 
 export const CollectionHeaderContainer = styled.div`
     width: 100%;
-    height: 45%;
-    border-top-right-radius: 15px;
+    height: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    font-weight: 700;
+
+`;
+
+
+export const CollectionInfoContainer = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     font-size: 1.3rem;
     font-weight: 700;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 650px) {
         font-size: 1.1rem;
+    }
+`;
+
+export const DescriptionContainer = styled.div`
+    width: 100%;
+    height:25%;
+    margin-bottom: 5px;
+
+`;
+
+export const Description = styled.p`
+    Padding: 5px;
+    font-size: 1.1rem;
+    text-overflow: elipsis;
+
+    @media screen and (max-width: 800px) {
+        font-size: 0.9rem;
     }
 `;
 
 
 export const CollectionButton = styled.div`
     display: flex;
-    justify-content: space-around;
-
-    // i {
-    //     color: var(--ter);
-    //     cursor: pointer;
-
-    //     &:hover {
-    //         transform: scale(1.2);
-    //     }
-    // }
+    justify-content: space-between;
+    padding: 0 5px;
 
     button {
         background-color: var(--ter);
@@ -88,35 +112,13 @@ export const CollectionButton = styled.div`
         border: none;
     }
 
-`;
 
-export const CollectionInfoContainer = styled.div`
-    display: flex;
-    justify-content: space-around;
-    margin: 1.5em 0 0.8em 0;
-
-    @media screen and (max-width: 800px) {
-        margin: 0.5em 0 0.3em 0;
+@media screen and (max-width: 650px) {
+    button {
+        font-size: 0.7rem;
+        font-weight: 400;
+        padding: 0.3rem 0.8rem;
     }
-`;
+}
 
-export const DescriptionContainer = styled.div`
-    width: 80%;
-    height:35%;
-    margin: 1em auto 0 auto;
-
-`
-
-export const Description = styled.div`
-   Padding: 5px;
-   font-size: 1.2rem;
-`;
-
-export const ProductName = styled.h2`
-    margin: auto;
-
-    @media screen and (max-width: 800px) {
-        font-size: 1.4rem;
-        margin: 0.8em auto;
-    }
 `;

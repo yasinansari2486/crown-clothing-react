@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import { addItem } from '../../redux/cart/cart.actions';
 import { withRouter } from 'react-router-dom';
 
-import { CollectionDescriptionContainer ,CollectionItemContainer, CollectionButton, BackgroundImage, CollectionHeaderContainer, CollectionInfoContainer, DescriptionContainer,Description, ProductName } from './collection-description.styles';
+import { CollectionDescriptionContainer ,CollectionItemContainer, CollectionButton, BackgroundImage, CollectionHeaderContainer, CollectionInfoContainer, DescriptionContainer,Description} from './collection-description.styles';
 
 const CollectionDescription = ({item,category, addItem, history}) => {
     console.log(item);
@@ -13,10 +13,10 @@ const CollectionDescription = ({item,category, addItem, history}) => {
             <BackgroundImage  className='image' imageUrl={imageUrl}/>
             <CollectionItemContainer>
                 <CollectionHeaderContainer>
-                    <ProductName>{name}</ProductName>
+                    <span>{category}</span>
                     <CollectionInfoContainer>
-                        <span>Category: {category}</span>
-                        <span>Price: &#36; {price}</span>
+                        <span>{name}</span>
+                        <span>&#36; {price}</span>
                     </CollectionInfoContainer>
                 </CollectionHeaderContainer>
                 <DescriptionContainer>
