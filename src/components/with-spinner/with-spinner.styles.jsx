@@ -20,4 +20,4 @@ export const SpinnerContainer = styled.div`
     to {
         transform: rotate(360deg);
     }
-`
+`;

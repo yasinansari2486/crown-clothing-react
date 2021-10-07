@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import url from '../../url';
 
 export const CollectionItemContainer = styled.div`
     width: 20vw;
@@ -42,6 +43,7 @@ export const CollectionButton = styled.div`
     @media screen and (max-width: 800px) {
         button {
             padding: 0.2rem 0.6rem;
+            font-weight: 400;
         }
 
         i {
@@ -57,7 +59,7 @@ export const BackgroundImage = styled.div`
     background-position: center;
     margin: 8px auto;
     border-radius: 15px;
-    background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+    background-image: ${({ imageUrl }) => `url(${url + imageUrl})`};
 `;
 
 export const CollectionFooterContainer = styled.div`

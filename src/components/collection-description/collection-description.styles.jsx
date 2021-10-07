@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import url from '../../url';
 
 export const CollectionDescriptionContainer = styled.div`
     width: 50vw;
@@ -12,14 +13,15 @@ export const CollectionDescriptionContainer = styled.div`
 
     @media screen and (max-width: 950px) {
         width: 80vw;
+        height: 60vh;
         margin: 2em auto;
     }
 
     @media screen and (max-width: 650px) {
         flex-direction: column;
         width: 50vw;
-        height: 70vh;
-        margin: auto;
+        height: 50vh;
+        margin: 2em auto;
     }
 `;
 
@@ -30,7 +32,7 @@ export const BackgroundImage = styled.div`
     background-position: center;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+    background-image: ${({ imageUrl }) => `url(${url + imageUrl})`};
 
     @media screen and (max-width: 650px) {
         height: 50%;
