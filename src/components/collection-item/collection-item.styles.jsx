@@ -12,7 +12,7 @@ export const CollectionItemContainer = styled.div`
     background: var(--sec);
 
     @media screen and (max-width: 800px) {
-        width: 40vw;
+        width: 65vw;
         height: 280px;
     }
 `;
